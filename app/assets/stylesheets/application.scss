@@ -1,13 +1,69 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-a:hover {
-  color: pink;
+div#container {
+  text-align: left;
+  background-color: pink;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+div#header {
   text-align: left;
+  background-color: pink;
+  position: fixed;
+  top: 10px;
+  left: 50px;
+  line-height: 30px;
+  z-index: 100;
+  width: 50%;
+  border: 2px dotted white;
+}
+
+div#navigation {
+  top: 170px;
+  left: 50px;
+  position: fixed;
+  font-size: 26px;
+  line-height: 30px;
+  z-index: 100;
+  list-style: none;
+  text-decoration: underline;
+  width: 25%;
+  border: 2px dotted white;
+}
+
+
+div.detailBox {
+  margin-left: 25%;
+  bottom: 300px;
+  right: 550px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  border: 1px dotted white;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: pink;
+}
+
+h1, h2, h3, h4 {
+  color: #ffff99;
+}
+
+p {
+  color: white;
+}
+
+a:link {
+  color:white;
+}
+
+
+a:hover {
+  color: #ffff99;
 }
