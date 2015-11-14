@@ -3,19 +3,18 @@
 
 div#container {
   text-align: left;
-  background-color: pink;
+  background-color: #ffff99;
 }
 
 div#header {
   text-align: left;
-  background-color: pink;
+  background-color: #ffff99;
   position: fixed;
   top: 10px;
   left: 50px;
   line-height: 30px;
   z-index: 100;
   width: 50%;
-  border: 2px dotted white;
 }
 
 div#navigation {
@@ -28,20 +27,21 @@ div#navigation {
   list-style: none;
   text-decoration: underline;
   width: 25%;
-  border: 2px dotted white;
 }
 
 
 div.detailBox {
-  margin-left: 25%;
-  bottom: 300px;
-  right: 550px;
+  margin: 25%;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
-  border: 1px dotted white;
+  text-align: left;
   padding: 10px;
   display: none;
+}
+
+
+#contact {
+  text-align: center;
 }
 
 ul {
@@ -49,22 +49,47 @@ ul {
 }
 
 body {
-  background-color: pink;
+  background-color: #ffff99;
 }
 
-h1, h2, h3, h4 {
-  color: #ffff99;
+
+h1 {
+  color: navy;
+  text-decoration: underline;
+  font-size: 38px;
+}
+h2, h3, h4 {
+  color: navy;
 }
 
 p {
-  color: white;
+  color: navy;
 }
 
+#header a:link {
+  color: navy;
+}
+#h4 a:hover {
+  color: #ffa089;
+}
+#navigation a:hover {
+  color: #ffa089;
+}
+#header a:visited{
+  color:navy;
+}
 a:link {
-  color:white;
+  color: navy;
 }
-
 
 a:hover {
-  color: #ffff99;
+  color: #ffa089;
+}
+
+a:visited {
+  color:navy;
+}
+
+#contact a:link{
+  text-decoration: none;
 }
